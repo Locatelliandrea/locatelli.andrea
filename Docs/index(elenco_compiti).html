@@ -1,17 +1,76 @@
-<!DOCTYPE html>
+
+<!DOCTYPE HTML>
 <html>
     <head>
+        <title>Tutti i miei esercizi</title>
         <meta charset="utf-8">
-        <title>Challenge: Jump around</title>
+        <style>
+            .elenco_puntato_giorni{
+                font-family: fantasy;
+                font-size: large;
+                background-color:yellowgreen;
+            }
+            
+            h1{
+                background-color:green;
+                color:greenyellow;
+                text-align: center;
+            }
+
+            h3{
+                background-color:green;
+                color:greenyellow;
+                text-align: center;
+            }
+
+            .elenco_puntato_esercizi{
+                font-family: cursive;
+            }
+
+            #div { 
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: url(sfondo.png) no-repeat center top;
+                position: fixed; 
+                z-index: -1;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+        </style>
     </head>
     <body>
-	<h1> Compiti 9 Aprile </h1>
-	<p>       https://locatelliandrea.github.io/locatelli.andrea/Khan%20academy/blog.html <br>	
-              https://locatelliandrea.github.io/locatelli.andrea/Khan%20academy/viaggi.html 
-    </p>
-             
-			  
+        
+        <div id="div"></div>
 
-    
+        <center><img src="nome.png"></center>
+        <br><br>
+        <h1>I miei esercizi</h1>
+        <h3>(Il giorno porta alla consegna su AgorÃ  mentre il nome dell'esercizio porta alla scheda html)</h3>
+        <ul class="elenco_puntato_giorni">
+            <li><a href="https://agora.ismonnet.it/agora/mod/assign/view.php?id=39305">Esercizio x 29 marzo 2021:</a> 
+                <ul class="elenco_puntato_esercizi">
+                    <li><a href="https://locatelliandrea.github.io/locatelli.andrea/Khan%20academy/es1.html">Viaggio con le immagini</a></li>
+                    <li><a href="https://locatelliandrea.github.io/locatelli.andrea/Khan%20academy/ese2.html">Saltare intorno</a></li>                   
+                </ul>
+            </li>
+            <br>
+            <li><a href="https://agora.ismonnet.it/agora/mod/assign/view.php?id=39322">Esercizio x 2 aprile 2021:</a>
+                <ul class="elenco_puntato_esercizi">
+                    <li><a href="https://github.com/Locatelliandrea/locatelli.andrea/blob/main/Influencer/docs/index.html">Influencer</a></li>
+                </ul>
+            </li>
+            <br>
+            <li><a href="https://agora.ismonnet.it/agora/mod/assign/view.php?id=39423">Esercizio x 9 aprile 2021</a>
+                <ul class="elenco_puntato_esercizi">
+                    <li><a href=" https://locatelliandrea.github.io/locatelli.andrea/Khan%20academy/blog.html">Pagina web sui viaggi</a></li>
+                    <li><a href=" https://locatelliandrea.github.io/locatelli.andrea/Khan%20academy/viaggi.html">Blog</a></li>
+                </ul>
+            </li>
+        </ul>
     </body>
 </html>
