@@ -2,7 +2,7 @@ body{
     background-color: rgba(240,240,240,255);
 }
 li{
-    margin:13px;
+    margin:14px;
 }
 .center{
     display: block;
@@ -12,7 +12,7 @@ li{
 .divAlternanza{
     margin-left:50px;
     margin-right:50px;
-    border: 2px solid rgb(0, 4, 221);
+    border: 2px solid rgb(19, 20, 85);
     padding: 10px;
     background-color: rgb(228, 194, 194);
 }
@@ -20,7 +20,7 @@ li{
     text-align: center;
     font-family: fantasy;
     font-size: 38px;
-    color:rgb(194, 11, 11);
+    color:rgb(82, 4, 4);
 }
 .descrizioneFaq{
     font-family: sans-serif;
@@ -63,6 +63,6 @@ td, th {
     margin-right:3%;
 }
 a{
-    color:rgb(133, 46, 46);
+    color:rgb(29, 167, 82);
     font-weight: bold;
 }
