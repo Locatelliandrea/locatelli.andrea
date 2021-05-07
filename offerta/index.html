@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <title>offerta telefonica iliad</title>
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="js.js">
+
+    </script>
+    <style type="text/css">
+        body {
+            background-color: rgb(57, 57, 58);
+        }
+
+        .offerta {
+            border: 5px solid whitesmoke;
+            color:rgb(9, 165, 212);
+            display: table;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 10px;
+            padding-top: 1px;
+            padding-bottom: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        .info {
+            border: 5px solid whitesmoke;
+            
+            display: table;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 10px;
+            padding-top: 1px;
+            padding-bottom: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+            color: rgb(15, 190, 44);
+            display: table;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body onload="inizializzaSelection()">
+<body>
+    <div class="offerta">
+        <h2>
+            VeryMobile
+        </h2>
+        <p>
+            Internet 30GB
+            <br>
+            SMS Illimitati
+            <br>
+            Chiamate Illimitate
+            <br>
+            <br>
+            4,99€
+            <br>
+            PER SEMPRE.
+            <br>
+            PER DAVVERO.
+            <br>
+        </p>
+    </div>
+
+    <div class="info">
+
+        <table class="testo">
+            <tr>
+                <td>Nome: </td>
+                <td><input type="text" id="nome" class="testo"></td>
+            </tr>
+            <tr>
+                <td>Cognome: </td>
+                <td><input type="text" id="cognome" class="testo"></td>
+            </tr>
+            <tr>
+                <td>Luogo di nascita: </td>
+                <td><input type="text" id="luogoNascita" class="testo"></td>
+            </tr>
+            <tr>
+                <td>Data di nascita: </td>
+                <td><input type="date" id="dataNascita" class="testo"></td>
+            </tr>
+            <tr>
+                <td>Sesso: </td>
+                <td>
+                    <select class="testo" id="sesso">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Colore degli occhi: </td>
+                <td>
+                    <select class="testo" id="occhi">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Provincia di residenza: </td>
+                <td>
+                    <select class="testo" id="provincia">
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="button" id="attivaOfferta" value="Attiva l'offerta!" class="bottone" onclick="attivaOfferta()">
+    </div>
+</div>
+       
+</body>
+
+</html>
